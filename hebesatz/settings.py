@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '165.227.140.70',
+    'http://data.taxapi.io/',
+    'www.http://data.taxapi.io/',
+    'data.taxapi.io'
 ]
 
 
