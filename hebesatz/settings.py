@@ -27,8 +27,7 @@ SECRET_KEY = '$n^zt85fe(b9e!rqb*n*^a!tzqb9z$j-52jqb(0ma%!*0!kibn'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '165.227.140.70',
-    '207.154.203.142',
+    '164.90.171.107',
     'http://data.taxapi.io/',
     'www.http://data.taxapi.io/',
     'data.taxapi.io'
@@ -158,3 +157,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
