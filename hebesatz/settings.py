@@ -27,12 +27,7 @@ SECRET_KEY = '$n^zt85fe(b9e!rqb*n*^a!tzqb9z$j-52jqb(0ma%!*0!kibn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '164.90.171.107',
-    'http://data.taxapi.io/',
-    'www.http://data.taxapi.io/',
-    'data.taxapi.io'
-]
+
 
 
 # Application definition
@@ -62,6 +57,8 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
+
+ALLOWED_HOSTS=['*']
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOW_METHODS = [
